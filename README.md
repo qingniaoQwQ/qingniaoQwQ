@@ -103,62 +103,7 @@
 | <img src="https://api.iconify.design/octicon:link.svg?color=%237d8590&height=16&width=16" height="16" alt="" /> NexusMC | https://www.nexusmc.cn/user/QingNiaoQaQ |
 | <img src="https://api.iconify.design/octicon:mail.svg?color=%237d8590&height=16&width=16" height="16" alt="" /> 邮箱 | owner@catcraft.online |
 
----
 
-## 主页更新记录
-
-- **2026-09** 建立主页 README；接入 CatCraft 团队 Logo 与个人头像（深浅色双版本，随系统主题自动切换）；补充 CS2 / CSGO 方向
-
-<!--
-=====================================================================
-维护须知
-=====================================================================
-
-【本 README 的设计原则：低维护成本】
-写这个主页时特意避免了两类会过期的东西，新增插件/仓库时不需要回来改：
-  1. 不逐个罗列仓库 —— 只在「代表项目」写旗舰作品 CatCraftTitle，其余用 Repositories 链接兜底；
-     新开仓库不用动本文件。
-  2. 不逐个罗列插件 —— CS 方向和 MC 方向都只描述「能力 + 技术栈 + 用到的东西」，
-     新写一个插件只要没换技术体系，本文件依然准确。
-  「主页更新记录」只在主页本身有实质性改动时才加一行。
-
-【为什么圆角是烤进图片里的】
-GitHub 会按白名单过滤 README 里的 HTML（源码见 github/html-pipeline 的 SanitizationFilter::WHITELIST）。
-该白名单的属性列表里既没有 style 也没有 class，所以 border-radius / box-shadow 这类 CSS 一律会被剥掉。
-因此圆角、描边、透明角全部在本地预处理时画进 PNG 的 Alpha 通道，GitHub 只负责显示，效果在任何客户端都一致。
-
-【头像】assets/ 目录下四个变体，当前用的是 card 版：
-  avatar-card-light.png    圆角卡片 + 浅灰描边 #d1d9e0  → 浅色模式显示
-  avatar-card-dark.png     圆角卡片 + 中灰描边 #6e7681  → 深色模式显示
-  avatar-round-light.png   正圆 + 浅灰描边              → 备用（想换成圆形头像就用它）
-  avatar-round-dark.png    正圆 + 中灰描边              → 备用
-  想从卡片换成正圆：把 README 里那两处 srcset 的文件名由 avatar-card-* 改成 avatar-round-* 即可。
-  想删掉没用的变体：确认 README 没引用后直接删文件。
-  源图 640x640 正方形 JPEG（无透明通道、底色接近纯白），已缩到 256x256；照片类内容存 PNG 偏大（约 115~127 KB/张），
-  介意体积的话可降到 192x192。
-
-【Logo】assets/logo-dark.png（浅色图形）与 assets/logo-light.png（深色图形），随主题切换。
-
-【主题切换写法】用 <picture> + prefers-color-scheme，GitHub 官方文档明确写着 "The <picture> HTML element is supported."；
-  旧的 #gh-dark-mode-only 片段写法已从官方文档移除，不要再用。
-
-【卡片布局】"关于我" 用 HTML 表格 + valign/width 属性实现两栏（align / valign / width / border / cellpadding / cellspacing 都在白名单内）。
-  注意：块级 HTML 标签内部 GitHub 不解析 Markdown，所以卡片里的加粗、列表必须写成 <b> / <ul> / <li>，写 ** 星号不会生效。
-
-【图标】均为公开 CDN，GitHub 会通过 camo 代理缓存，读者侧网络不受影响：
-  Simple Icons  https://cdn.simpleicons.org/<slug>/<十六进制色值>
-  Iconify       https://api.iconify.design/<图标集>:<图标名>.svg?color=%23色值&height=16&width=16
-  注意：Simple Icons 已下架 minecraft / tencentqq 等图标，所以 Minecraft 图标取自 Iconify 的 simple-icons 集；
-        QQ 图标的 slug 是 qq，CS 图标的 slug 是 counterstrike（不是 counter-strike）。
-        Octicons 里没有 people / trophy，需要「数据、统计」类图标用 octicon:graph，需要「在线」用 octicon:pulse。
-  通用图标统一用 #7d8590（深浅色模式都能看清）；Counter-Strike 官方色是纯黑，深色模式下不可见，故改用琥珀色 #d29922。
-
-【可选】第三方数据卡片（公共实例偶尔限流，国内访问不稳定，需要时再取消注释）
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=qingniaoQwQ&show_icons=true&theme=tokyonight&locale=cn" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=qingniaoQwQ&layout=compact&theme=tokyonight&locale=cn" height="165" />
-</p>
 -->
 
 <p align="center"><sub>QingNiaoQaQ · CatCraft Team</sub></p>
