@@ -104,6 +104,5 @@
 | <img src="https://api.iconify.design/octicon:mail.svg?color=%237d8590&height=16&width=16" height="16" alt="" /> 邮箱 | owner@catcraft.online |
 
 
--->
 
 <p align="center"><sub>QingNiaoQaQ · CatCraft Team</sub></p>
