@@ -32,7 +32,7 @@
       </picture>
     </td>
     <td valign="middle">
-      <p>我是 <b>QingNiao（QingNiaoQaQ）</b>，<b>CatCraft</b> 团队开发者。主战场在游戏服务端：写 Minecraft 插件、写 CS2 / CSGO 客户端插件、搭社区服务器，顺手把服务器官网和赛事页面也做了。</p>
+      <p>我是 <b>QingNiaoQaQ</b>，<b>CatCraft</b> 创始人兼开发。主要开发在游戏服务端：写 Minecraft 插件、写 CS2 / CSGO 客户端插件、搭社区服务器，顺手把服务器官网和赛事页面也做了。</p>
       <ul>
         <li><img src="https://api.iconify.design/simple-icons:minecraft.svg?color=%2362b47a&height=16&width=16" height="16" alt="" /> 自研并运营 <b>CatCraft</b> Minecraft 生存服：插件、数据、官网整条链路都是自研</li>
         <li><img src="https://cdn.simpleicons.org/spigotmc/ED8106" height="16" alt="" /> Minecraft 插件：Java + Gradle，服务端适配 Spigot / Paper / Purpur / Folia</li>
